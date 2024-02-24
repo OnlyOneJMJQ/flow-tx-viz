@@ -1,0 +1,45 @@
+export default [
+  {
+    id: "e1-2a",
+    source: "1",
+    target: "2a",
+    style: { stroke: "#000000", strokeWidth: 2 },
+  },
+  {
+    id: "e2a-3a",
+    source: "2a",
+    target: "3a",
+    style: { stroke: "#000000", strokeWidth: 2 },
+    markerEnd: { type: "arrowclosed", color: "#000000" },
+  },
+  {
+    id: "e3a-4a",
+    source: "3a",
+    target: "4a",
+    style: { stroke: "#000000", strokeWidth: 2 },
+    markerEnd: { type: "arrowclosed", color: "#000000" },
+  },
+  {
+    id: "e4a-4b",
+    source: "4a",
+    target: "4b",
+    style: { stroke: "#000000", strokeWidth: 2 },
+    markerEnd: { type: "arrowclosed", color: "#000000" },
+  },
+  {
+    id: "e4b-3b",
+    source: "4b",
+    target: "3b",
+    type: "dashed",
+    data: { text: "derp" },
+    style: { stroke: "#dd0000", strokeWidth: 2 },
+    markerEnd: { type: "arrowclosed", color: "#dd0000" },
+  },
+  {
+    id: "e3b-3c",
+    source: "3b",
+    target: "3c",
+    style: { stroke: "#000000", strokeWidth: 2 },
+    markerEnd: { type: "arrowclosed", color: "#000000" },
+  },
+];

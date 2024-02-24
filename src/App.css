@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global */
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Tables */
+
+.panel-wide table {
+  border-collapse: collapse;
+}
+
+.panel-wide table th,
+.panel-wide table td {
+  border: 1px solid #000000;
+  padding: 0.25rem;
+}
+
+table th {
+  font-weight: bold;
+}
+
+/* Panels */
+
+.panel-wide {
+  width: 100%;
+}
+
+.panel-wide h3 {
+  text-align: center;
+}
+
+.panel-wide table {
+  margin: 0 auto;
+}
+
+.panel-wide label {
+  display: block;
+}
+
+/* Nodes */
+
+/* .react-flow__node-functionCall,
+.react-flow__node-transaction,
+.react-flow__node-revert {
+  border: 1px solid #000000;
+  border-radius: 0.25rem;
+  padding: 0rem 1rem 1rem 1rem;
+  background-color: #ffffff;
+}
+
+.react-flow__node-functionCall h4,
+.react-flow__node-transaction h4,
+.react-flow__node-revert h4 {
+  border-bottom: 1px solid #000000;
+  margin: 0 -1rem 0.5rem -1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.react-flow__node-revert h4 {
+  color: #dd0000;
+  background: lightpink;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.react-flow__node-revert p {
+  color: #dd0000;
+  margin-bottom: 0;
+}
+*/
+.react-flow__node-contract {
+  /* border: 1px solid #000000;
+  border-radius: 0.25rem;
+  padding: 1rem; */
+  /* TODO: Remove the important. This is only here because a z-index is being
+  added via the style attribute on the node. */
+  z-index: -1 !important;
+}
+/*
+.react-flow__node-contract h4 {
+  color: #000000;
+  margin-top: 0;
+  text-align: center;
+} */
